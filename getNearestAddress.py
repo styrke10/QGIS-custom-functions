@@ -137,7 +137,7 @@ def fetchAdressepunkter(x, y, halfSize, timeStamp):
         QgsMessageLog.logMessage(f'Mere end {maxPages * pageSize} adressepunkter i boksen - resultat kan være ufuldstændigt',
                                  logTag, Qgis.Warning)
     # Sort candidates by distance
-     candidates.sort()
+    candidates.sort()
     return candidates
  
  
@@ -207,12 +207,12 @@ def lookupNearestAddress(x, y):
  
  
 # ---------------------------------------------------------------------------
-# QGIS-funktion
+# QGIS funktionen
 # ---------------------------------------------------------------------------
 @qgsfunction(args='auto', group='Custom')
 def getNearestAddress(x, y, feature, parent):
     """
-    Henter - via Datafordelerens GraphQL-tjeneste for DAR - den nærmeste (danske) adresse til det punkt, som er defineret af parametrene x og y.<br>
+    Henter - via Datafordelerens GraphQL-tjeneste for DAR - den nærmeste (danske) adgangsadresse til det punkt, som er defineret af parametrene x og y.<br>
     <h3>Syntax:</h3>
     getNearestAddress( x, y )
  
