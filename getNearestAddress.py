@@ -228,7 +228,7 @@ def getNearestAddress(x, y, feature, parent):
       <li>getNearestAddress($x, $y) -> 'Jernbanegade 27, 6000 Kolding'</li>
     </ul>
     Koordinater skal angives i ETRS89 UTM Zone 32N (EPSG:25832).<br>
-    Kræver den globale variabel <b>dar_api_key</b> med en Datafordeler API-nøgle.<br><br>
+    Kræver den globale variabel <b>'dar_api_key'</b> med en Datafordeler API-nøgle.<br><br>
     """
  
     # Samme SSL-håndtering som det oprindelige script (slår certifikatkontrol fra)
