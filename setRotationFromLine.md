@@ -14,11 +14,11 @@ setRotationFromLine( linelayer, directional=NULL, tolerance=NULL, offset=NULL )
 
 *directional:* Angiver om symbolet skal roteres efter linjens digitaliseringsretning:
 
-    <li>0: Uden hensyn til retning (altid mest mulig nordvendt)</li>
-
-    <li>1: Med digitaliseringretningen</li>
-
-    <li>2: Imod digitaliseringretningen</li>
+    0: Uden hensyn til retning (altid mest mulig nordvendt)
+    
+    1: Med digitaliseringretningen
+    
+    2: Imod digitaliseringretningen
 
 *tolerance:* Den maksimalt tilladte afstand mellem punkt og linje.
 
