@@ -1,6 +1,6 @@
 # Anvendelse af setRotationFromLine()
 
-setRotationFromLine() beregner rotationen af det linjesegment i det lag, der angives som parameter.
+setRotationFromLine() beregner rotationen af det nærmeste linjesegment i det lag, der angives som parameter.
 
 
 
