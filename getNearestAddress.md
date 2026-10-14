@@ -1,4 +1,6 @@
-# Forudsætninger for anvendelse af getNearestAddress()
+# Anvendelse af getNearestAddress()
+
+## Forudsætninger
 
 Du skal have oprettet en API key på Datafordeler Administration.
 
@@ -16,3 +18,13 @@ Når du har gjort dette, opretter du en global variabel i din QGIS med API-key'e
 Kopiér filen 'getNearestAddress.py' ind i expressions-folderen på din computer: %APPDATA%\QGIS\QGIS3\profiles\default\python\expressions.
 
 Start QGIS, og du skulle nu gerne kunne se funktionen getNearestAddress i Field Calculator'en i gruppen 'Custom'.
+
+## Anvendelse
+
+Funktionen kaldes på følgende måde:
+
+getNearestAddress( x, y )
+
+**Parametre:**
+
+*x, y:* Koordinater i EPSG:25832 for det punkt, som nærmeste adresse skal beregnes for.
